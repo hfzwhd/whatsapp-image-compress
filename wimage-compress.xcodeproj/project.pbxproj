@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF1B16B1E2787DA004BDDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1B16A1E2787DA004BDDDC /* AppDelegate.swift */; };
+		FAF1B16D1E2787DA004BDDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1B16C1E2787DA004BDDDC /* ViewController.swift */; };
+		FAF1B1701E2787DA004BDDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1B16E1E2787DA004BDDDC /* Main.storyboard */; };
+		FAF1B1721E2787DA004BDDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1B1711E2787DA004BDDDC /* Assets.xcassets */; };
+		FAF1B1751E2787DA004BDDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1B1731E2787DA004BDDDC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAF1B1671E2787DA004BDDDC /* wimage-compress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wimage-compress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1B16A1E2787DA004BDDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF1B16C1E2787DA004BDDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF1B16F1E2787DA004BDDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF1B1711E2787DA004BDDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF1B1741E2787DA004BDDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF1B1761E2787DA004BDDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF1B1641E2787DA004BDDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF1B15E1E2787D9004BDDDC = {
+			isa = PBXGroup;
+			children = (
+				FAF1B1691E2787DA004BDDDC /* wimage-compress */,
+				FAF1B1681E2787DA004BDDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF1B1681E2787DA004BDDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1B1671E2787DA004BDDDC /* wimage-compress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF1B1691E2787DA004BDDDC /* wimage-compress */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1B16A1E2787DA004BDDDC /* AppDelegate.swift */,
+				FAF1B16C1E2787DA004BDDDC /* ViewController.swift */,
+				FAF1B16E1E2787DA004BDDDC /* Main.storyboard */,
+				FAF1B1711E2787DA004BDDDC /* Assets.xcassets */,
+				FAF1B1731E2787DA004BDDDC /* LaunchScreen.storyboard */,
+				FAF1B1761E2787DA004BDDDC /* Info.plist */,
+			);
+			path = "wimage-compress";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF1B1661E2787DA004BDDDC /* wimage-compress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1B1791E2787DA004BDDDC /* Build configuration list for PBXNativeTarget "wimage-compress" */;
+			buildPhases = (
+				FAF1B1631E2787DA004BDDDC /* Sources */,
+				FAF1B1641E2787DA004BDDDC /* Frameworks */,
+				FAF1B1651E2787DA004BDDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wimage-compress";
+			productName = "wimage-compress";
+			productReference = FAF1B1671E2787DA004BDDDC /* wimage-compress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF1B15F1E2787D9004BDDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hw;
+				TargetAttributes = {
+					FAF1B1661E2787DA004BDDDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8B4A3428Q6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAF1B1621E2787D9004BDDDC /* Build configuration list for PBXProject "wimage-compress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF1B15E1E2787D9004BDDDC;
+			productRefGroup = FAF1B1681E2787DA004BDDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF1B1661E2787DA004BDDDC /* wimage-compress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF1B1651E2787DA004BDDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1B1751E2787DA004BDDDC /* LaunchScreen.storyboard in Resources */,
+				FAF1B1721E2787DA004BDDDC /* Assets.xcassets in Resources */,
+				FAF1B1701E2787DA004BDDDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF1B1631E2787DA004BDDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1B16D1E2787DA004BDDDC /* ViewController.swift in Sources */,
+				FAF1B16B1E2787DA004BDDDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF1B16E1E2787DA004BDDDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1B16F1E2787DA004BDDDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF1B1731E2787DA004BDDDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1B1741E2787DA004BDDDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF1B1771E2787DA004BDDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF1B1781E2787DA004BDDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF1B17A1E2787DA004BDDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4A3428Q6;
+				INFOPLIST_FILE = "wimage-compress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hw.wimage-compress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAF1B17B1E2787DA004BDDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4A3428Q6;
+				INFOPLIST_FILE = "wimage-compress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hw.wimage-compress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF1B1621E2787D9004BDDDC /* Build configuration list for PBXProject "wimage-compress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1B1771E2787DA004BDDDC /* Debug */,
+				FAF1B1781E2787DA004BDDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF1B1791E2787DA004BDDDC /* Build configuration list for PBXNativeTarget "wimage-compress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1B17A1E2787DA004BDDDC /* Debug */,
+				FAF1B17B1E2787DA004BDDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF1B15F1E2787D9004BDDDC /* Project object */;
+}
