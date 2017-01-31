@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412803BBDF7142DF4AFCBADC /* Pods_wimage_compress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513FC2CDAD3208F0FF155FDC /* Pods_wimage_compress.framework */; };
 		FAF1B16B1E2787DA004BDDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1B16A1E2787DA004BDDDC /* AppDelegate.swift */; };
 		FAF1B16D1E2787DA004BDDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1B16C1E2787DA004BDDDC /* ViewController.swift */; };
 		FAF1B1701E2787DA004BDDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1B16E1E2787DA004BDDDC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		513FC2CDAD3208F0FF155FDC /* Pods_wimage_compress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wimage_compress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17282D705DEF40149512634 /* Pods-wimage-compress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wimage-compress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wimage-compress/Pods-wimage-compress.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF1B1671E2787DA004BDDDC /* wimage-compress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wimage-compress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1B16A1E2787DA004BDDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF1B16C1E2787DA004BDDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		FAF1B1711E2787DA004BDDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF1B1741E2787DA004BDDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF1B1761E2787DA004BDDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0931B49F4CCD8B6AE19C70 /* Pods-wimage-compress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wimage-compress.release.xcconfig"; path = "Pods/Target Support Files/Pods-wimage-compress/Pods-wimage-compress.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412803BBDF7142DF4AFCBADC /* Pods_wimage_compress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2876FBD5189A97EBF01D3970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A17282D705DEF40149512634 /* Pods-wimage-compress.debug.xcconfig */,
+				FD0931B49F4CCD8B6AE19C70 /* Pods-wimage-compress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55DCF910C99D5BB89F673636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513FC2CDAD3208F0FF155FDC /* Pods_wimage_compress.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAF1B15E1E2787D9004BDDDC = {
 			isa = PBXGroup;
 			children = (
 				FAF1B1691E2787DA004BDDDC /* wimage-compress */,
 				FAF1B1681E2787DA004BDDDC /* Products */,
+				2876FBD5189A97EBF01D3970 /* Pods */,
+				55DCF910C99D5BB89F673636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF1B1791E2787DA004BDDDC /* Build configuration list for PBXNativeTarget "wimage-compress" */;
 			buildPhases = (
+				A3242962D343B0E7E4E9D594 /* [CP] Check Pods Manifest.lock */,
 				FAF1B1631E2787DA004BDDDC /* Sources */,
 				FAF1B1641E2787DA004BDDDC /* Frameworks */,
 				FAF1B1651E2787DA004BDDDC /* Resources */,
+				48387374A7CBF2A7B3FFB27A /* [CP] Embed Pods Frameworks */,
+				B4C00CBFC984A33E22D63D4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48387374A7CBF2A7B3FFB27A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wimage-compress/Pods-wimage-compress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3242962D343B0E7E4E9D594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C00CBFC984A33E22D63D4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wimage-compress/Pods-wimage-compress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAF1B1631E2787DA004BDDDC /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		FAF1B17A1E2787DA004BDDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17282D705DEF40149512634 /* Pods-wimage-compress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8B4A3428Q6;
@@ -270,6 +346,7 @@
 		};
 		FAF1B17B1E2787DA004BDDDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0931B49F4CCD8B6AE19C70 /* Pods-wimage-compress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8B4A3428Q6;
